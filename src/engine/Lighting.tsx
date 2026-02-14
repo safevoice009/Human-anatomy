@@ -1,9 +1,9 @@
 export function Lighting() {
   return (
     <>
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[10, 10, 5]} intensity={1} />
-      <directionalLight position={[-10, -10, -5]} intensity={0.5} />
+      <ambientLight intensity={0.35} />
+      <directionalLight position={[6, 8, 5]} intensity={1} castShadow />
+      <directionalLight position={[-6, -4, -5]} intensity={0.4} />
     </>
   )
 }
