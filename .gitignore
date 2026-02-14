@@ -1,0 +1,12 @@
+node_modules
+dist
+.dist
+.dist-ssr
+build
+coverage
+.DS_Store
+.playwright-cli
+*.log
+*.tsbuildinfo
+.env
+.env.*
